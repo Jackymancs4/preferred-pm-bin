@@ -1,0 +1,39 @@
+{
+  "name": "preferred-pm-bin",
+  "version": "1.0.0",
+  "description": "CLI app for linting package.json files.",
+  "keywords": [
+    "bin",
+    "preferred-pm"
+  ],
+  "homepage": "",
+  "bugs": {
+    "url": ""
+  },
+  "author": {
+    "name": "Giacomo Rossetto",
+    "email": "jackyman_cs4@live.it"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bin": {
+    "preferred-pm": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "path-exists": "^3.0.0",
+    "preferred-pm": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=4.2.0",
+    "npm": ">=2.14.7"
+  },
+  "license": "MIT"
+}
