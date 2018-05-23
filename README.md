@@ -1,10 +1,10 @@
-# preferred-pm-bin
+# preferred-pm-cli
 
 ## Install
 
 ```bash
-$ npm install -g preferred-pm-bin
-$ yarn global add preferred-pm-bin
+$ npm install -g preferred-pm-cli
+$ yarn global add preferred-pm-cli
 ```
 
 ## Usage
